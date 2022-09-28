@@ -1,0 +1,33 @@
+.next-prev-ajax-loader {
+    background: #000000b8;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 999999;
+    top: 0;
+    border: 0;
+    left: 0;
+}
+.next-prev-center-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+.next-prev-center-container img {
+    width: 150px;
+    border-radius: 2%;
+}
+
+.card-added-message-one {
+    background: #fff2ac;
+    padding: 5px 10px;
+    text-align: center;
+}
+.card-added-message-two{
+    background: #fff2ac;
+    padding: 5px 10px;
+    text-align: center;
+}

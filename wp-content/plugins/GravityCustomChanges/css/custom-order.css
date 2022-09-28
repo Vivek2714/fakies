@@ -1,0 +1,133 @@
+body .gform_wrapper.custom-fakies-parent_wrapper {
+    padding-left: 26px;
+    padding-right: 26px;
+}
+button.gpnf-add-entry{
+    background: #8cc63f;
+    border: 0px;
+    color: #fff;
+    padding: 16px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: inset 0 -2px 0 #6c9a2e;
+  
+}
+
+.pac-container{
+    z-index: 99999;
+}
+
+input#gform_submit_button_27{
+    background: #8cc63f;
+    border: 0px;
+    color: #fff;
+    padding: 16px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: inset 0 -2px 0 #6c9a2e;
+}
+.custom-fakies-parent .gpnf-row-actions ul li {
+    background: #8cc63f;
+    padding: 8px 30px;
+    border-radius: 5px;
+    box-shadow: inset 0 -2px 0 #6c9a2e;
+}
+.custom-fakies-parent .gpnf-row-actions ul li a{
+    color:#fff;
+}
+.custom-fakies-parent td.gpnf-field {
+    font-weight: bold;
+}
+body .gform_wrapper .custom-fakies-parent .top_label div.ginput_container {
+    width: 100%;
+}
+.custom-fakies-parent .gpnf-row-actions ul {
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.gpnf-dialog.ui-dialog {
+    z-index: 99999;
+}
+/*.gform_wrapper .custom-fakies-child .gform_page_footer {
+    display: flex;
+}*/
+body .custom-fakies-child .gform_page_footer input.button {
+    width: 47%;
+}
+.gform_wrapper .custom-fakies-child .gform_page .gform_page_footer .button.gform_previous_button {
+    margin-bottom: 0px;
+}
+.custom-content-error .et_pb_row.et_pb_row_0 {
+    padding-top: 30px !important;/***all ready use important****/
+    padding-bottom: 30px !important;
+}
+body .gpnf-dialog .ui-dialog-content {
+    padding: 20px;
+}
+body .custom-fakies-child .gfield_date_dropdown_month.ginput_container.ginput_container_date, 
+body .custom-fakies-child .gfield_date_dropdown_year.ginput_container.ginput_container_date {
+    padding-left: 0px;
+}
+body .gpnf-dialog .ui-dialog-titlebar {
+    background: #8cc63f;
+}
+body .custom-fakies-child .gfield_date_dropdown_day.ginput_container.ginput_container_date, 
+body .custom-fakies-child .gfield_date_dropdown_month.ginput_container.ginput_container_date {
+    padding-right: 4px;
+}
+.custom-fakies-child span.gform_description {
+    display: none;
+}
+.gform_wrapper .custom-fakies-child label.gfield_label, 
+.gform_wrapper .custom-fakies-child legend.gfield_label {
+    font-weight: 700;
+    font-size: inherit;
+    font-size: 14px;
+}
+
+/*********************** validation msg**************/
+
+.gform_wrapper .custom-fakies-child li.gfield.gfield_error, 
+.gform_wrapper .custom-fakies-child li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    background-color: transparent;
+    margin-bottom: 6px!important;
+    border-top: 0;
+    border-bottom: 0;
+   padding-top: 0px;
+    box-sizing: border-box;
+}
+.gform_wrapper .custom-fakies-child li.gfield.gfield_error.gfield_contains_required div.ginput_container, 
+.gform_wrapper .custom-fakies-child li.gfield.gfield_error.gfield_contains_required label.gfield_label{
+      margin-top: 0px;
+}
+
+@media screen and (max-width:767px){
+    body .custom-fakies-child .gform_page_footer input.button {
+    margin-bottom: 18px !important;
+}
+body .custom-fakies-parent .gpnf-row-actions ul li {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.custom-fakies-parent .gpnf-row-actions ul {
+    display: inherit;
+}
+body .custom-fakies-parent .gpnf-row-actions li.edit {
+    margin-bottom: 2px;
+}
+.entry-content tr td, body.et-pb-preview #main-content .container tr td {
+    padding: 5px;
+}
+.custom-fakies-parent .gpnf-row-actions ul li {
+    padding: 3px 16px;
+}
+}
+
+
+.custom-fakies-parent .product-hide {
+    visibility: hidden;
+}

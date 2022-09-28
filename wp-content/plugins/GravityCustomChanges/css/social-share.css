@@ -1,0 +1,107 @@
+@import "https://use.fontawesome.com/releases/v5.0.10/css/all.css";
+#sociallocker {
+	background-color: #EEEEEE;
+	text-align: center;
+	position: relative;
+	max-width: 100%;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	border-radius:10px;
+}
+#sociallocker-overlay {
+	background-color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	transition: all 0.2s ease;
+}
+#sociallocker-overlay i {
+	margin-right: 10px;
+}
+#sociallocker:hover #sociallocker-overlay {
+	top: -100%;
+	transition: all 0.2s linear;
+}
+#sociallocker:hover #sociallocker-content {
+	top: 100%;
+	transition: all 0.2s linear;
+}
+#sociallocker-content a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	background-color: #777777;
+	color: #f9f9f9;
+	border-radius: 4px;
+	font-weight: bold;
+}
+#sociallocker-overlay,
+#sociallocker-content,
+#sociallocker-links {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	left: 0;
+}
+#sociallocker-overlay .fa-w-14 {
+    margin-right: 12px;
+}
+#sociallocker-content {
+	background-color: #ccc;
+	transition: all 0.2s ease;
+}
+.social-1 {
+	text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+	margin-right: 5px;
+	padding: 10px 30px;
+    border-radius: 4px;
+}
+.social-1 i {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+    height: 100%;
+}
+.social-1:hover i {
+	background-color: rgba(0,0,0,0.1);
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+.fb { background-color: #4561A8; }
+.tw { background-color: #17ADEA; }
+.gp { background-color: #BF3B28; }
+.in { background-color: #1679B1; }
+.pi { background-color: #D9303C; }
+.su { background-color: #E84930; }
+
+
+.gform_wrapper ul.gform_fields li.gfield.space-top{
+	padding-top: 14px;
+}
+
+
+.cancel-verification-btn {
+  background: #8cc63f;
+  border: 0px;
+  color: #fff;
+  padding: 6px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: inset 0 -2px 0 #6c9a2e;
+  width: 100px;
+}
+.facebook-center-container {
+    text-align: center;
+}

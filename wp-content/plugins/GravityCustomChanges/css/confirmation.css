@@ -1,0 +1,188 @@
+.confirmation_order .order_msg,
+.confirmation_order .order-error {
+    padding: 30px 50px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 2px 2px;
+    box-shadow: 2px 2px 16px 9px rgba(0,0,0,.2);
+    border-radius: 10px;
+    position: relative;
+    padding-top: 50px;
+}
+.confirmation_order .order-error {
+	padding-top: 30px;
+}
+.order_msg img{
+	width: 100px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+.order-error img {
+    width: 80px;
+    padding-bottom: 30px;
+}
+.confirmation_order .order_msg h1 {
+    font-size: 50px;
+    color: #636363;
+}
+.confirmation_order .order_msg h3 {
+    color: #636363;
+    line-height: 30px;
+}
+.confirmation_order .order_num {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+.confirmation_order .order_num h1 {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
+    line-height: 50px;
+}
+.confirmation_order .order_num p {
+    color: #000000;
+}
+.confirmation_order .order-img{
+	text-align: center;
+	margin-top: 28px;
+    margin-bottom: 50px;
+
+}
+.confirmation_order strong {
+	 position: relative;
+	 font-weight: 600;
+}
+.confirmation_order strong::after {
+	 content: '';
+	 position: absolute;
+	 bottom: -7px;
+	 left: -0.5rem;
+	 right: -0.5rem;
+	 height: 0.75rem;
+	 background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/underline.svg');
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+.confirmation_order details {
+  padding: 45px 70px 45px 45px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 22px;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 15px;
+  box-sizing: border-box;
+  transition: all .3s;
+}
+
+.confirmation_order details + details {
+  margin-top: 20px;
+}
+
+.confirmation_order details[open] {
+  min-height: 50px;
+  background-color: #d9fce5;
+  box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+}
+
+.confirmation_order details p {
+    color: #2a312c;
+    font-weight: 300;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.confirmation_order summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+  color: #070807;
+}
+
+
+/*summary:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #f6f7f8, 0 0 0 5px rebeccapurple;
+}*/
+
+.confirmation_order summary::-webkit-details-marker {
+  display: none
+}
+
+.confirmation_order .control-icon {
+  fill: rebeccapurple;
+  transition: .3s ease;
+  pointer-events: none;
+}
+
+.confirmation_order .control-icon-close {
+  display: none;
+}
+
+.confirmation_order details[open] .control-icon-close {
+  display: initial;
+  transition: .3s ease;
+}
+
+.confirmation_order details[open] .control-icon-expand {
+  display: none;
+}
+
+.confirmation_order details[open] summary:hover::after {
+  animation: pulse 1s ease;
+}
+
+@keyframes pulse {
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width:640px){
+	.confirmation_order .order_msg h1 {
+    	font-size: 23px;
+	}
+	.confirmation_order .order_msg h3 {
+		line-height: 22px;
+    	font-size: 16px;
+	}
+	.confirmation_order .order_msg {
+    	padding: 30px 20px;
+    	padding-top: 35px;
+	}
+	.order_msg img {
+    	width: 60px;
+	}
+	.confirmation_order .order_num {
+	    padding: 0px;
+	    margin-top: 50px;
+	}
+	.confirmation_order .order_num h1 {
+	    font-size: 16px;
+	    line-height: 27px;
+	}
+	.confirmation_order details {
+    	padding: 20px;
+	}
+}
+
+.order-count a span.order-count {
+    background: #8cc63f;
+    padding: 2px 8px;
+    border-radius: 18px;
+    box-shadow: inset 0 -2px 0 #6c9a2e;
+    /* margin-left: 0px !important; */
+}
